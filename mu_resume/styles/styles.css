@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+/*body
+====================*/
+body{
+	background-image: url(https://www.pulse-origin.com/wp-content/uploads/2017/09/bgdev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+/*header
+====================*/
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+/*logo
+====================*/
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	/*background-color: red;*/
+}
+img{
+	display: block;
+	width: 100%;
+}
+/*nav
+====================*/
+nav{
+	width: 80%;
+	display: inline-block;
+	font-size: 15px;
+}
+/*menu
+====================*/
+.menu{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+}
+.menu > li{
+	/*display: inline-block;*/
+	/*width:40%;*/
+    /*background-color: blue;*/	
+    flex-grow: 1;
+
+}
+.menu > li :hover{
+	border-bottom:1px solid black;
+	padding-bottom: 10px;
+}
+.menu > li > a{
+	display: inline-block;
+	padding-bottom: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#000000;
+}
+.menu > li > a:hover{
+	border-bottom:1px solid #fff;
+}
+/*info
+====================*/
+.info{
+	float: left;
+	display: block;
+	width: 300px;
+	margin: 20px;
+	padding: 30px;
+	background-color: #fbfeff;
+	text-align: center;
+	justify-content: flex-start;
+}
+.photo{ 
+	width: auto;
+	display: flex;
+	margin: auto;
+}
+.name{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.profession{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/*about
+====================*/
+.about{	
+	display: inline-block;
+	width: 1000px;
+	height: 400px;
+	justify-content: center;
+	margin-top: 20px;
+    margin-left: -10px;
+    /*background-color: red;*/
+}
+.hello{
+	display: inline-block;
+	/*background-color: green;*/
+	font-size: 30px;
+	width: 20%;
+	height: 15%;
+	margin: 0 0 50px;
+	display: flex;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.skills{
+	display: inline-block;
+	/*background-color: green;*/
+	width: 95%;
+	height: 20%;
+	font-size: 30px;
+	margin: 0 0 100px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.btn{
+	display: block;
+	width: 268px;
+	height: 58px;
+	border:1px solid #fff;
+	text-align: center;
+	line-height: 59px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#fff;
+	background: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+/*footer
+====================*/
+footer{
+	background-color: rgba(37,50,64,0.7);
+}
+/*footer-title
+====================*/
+.footer-title{
+	padding: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color:#fff;
+}
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+.map{
+	width: 40%;
+}
+.form{
+	padding: 0px 20px;
+}
+/*form
+====================*/
+form{
+	display: flex;
+	flex-direction: column;
+}
+form > input, form > textarea{
+	margin-bottom:10px;
+}
+.contact-info{
+	text-align: right;
+}
+.contact-info_item{
+	padding-bottom: 10px;
+	color: #fff;
+}
+.contact-info_item-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+.contact-info_item-value > a{
+	text-decoration: none;
+	color: #fff;
+}
+.contact-info_item-value > a:hover{
+	color: #5899e0;
+}
