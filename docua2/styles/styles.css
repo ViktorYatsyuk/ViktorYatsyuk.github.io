@@ -1,0 +1,63 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+</style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.main-wrap {
+	margin: 0 auto;
+	width: 760px;
+	background-color: #4164DA;
+	padding: 40px 10px 108px 10px;
+}
+
+.main{
+	margin: 0 auto;
+	/*width: 740px;*/
+	background-color: #fff;
+	padding: 0px 30px 780px 30px;
+}
+
+.header-bg {
+	background: url(../docua2/header.png);
+    height: 110px;
+    background-size: cover;
+}
+
+.wrap {
+	padding: 20px 50px 0px 50px;
+    /*background-color: red;*/
+}
+
+.text-center {
+	text-align: center;
+	padding-bottom: 1px;
+	font-size: 18px;
+}
+
+.main-text {
+    /*padding-bottom: 1px;*/
+    font-size: 18px;
+}
+
+.row {
+	display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.proposr {
+    
+}
+
+.propose-image {
+    padding-bottom: 10px;
+}
+
+.propose-text {
+	text-align: center;
+}
