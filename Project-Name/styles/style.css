@@ -1,0 +1,90 @@
+
+* Landing Page - Practice
+* CSS Styles
+* http://www.idg.net.ua/blog/uchebnik-css/ispolzovanie-css/praktika-delaem-landing-page
+*
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+ /*General */
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif; /* кроме Raleway добавьте
+                                                         * несколько запасных шрифтов */
+}
+p {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    background-color: red;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 26px;
+}
+h2, h3 {
+    color: #282828;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brand {
+    font-size: 30px;
+}
+
+.menu li {
+    float: left;
+    font-size: 16px;
+    list-style: none; /* убираем стандартные маркеры списка */
+}
+.menu {
+    padding-left: 0; /* убираем стандартный левый отступ списка */
+    margin: 0; /* убираем стандартные поля списка */
+}
+Приберемо з навігації стандартне підкреслення посилань:
+
+.menu li a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+
+
+/* container */ 
+     
+
+
+/* jumbotron */ 
+
+
+
+/* Services */
+
+
+
+/* Blog */
+
+
+
+/* Footer */
+
+
