@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: #343434;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 80px;
+    color: #023875;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+h2, h3 {
+    color: #023875;
+}
+
+h5 {
+    font-size: 30px;
+    color: #023875;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+header {
+	padding-top: 30px;
+}
+
+.brand {
+	padding: 0px 0px 0px 50px;
+	height: 50px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #023875;
+}
+
+/*container
+=======================*/
+.container {
+    width: 96%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+	padding-top: 30px;
+    /*float:left; */
+}
+
+.title img {
+    float: left;
+    padding-top: 20px;
+    margin-left: 20%;
+}
+
+.title a {
+	text-decoration: none;
+}
+
+.title h3 {
+	padding-top: 20px;
+	color: #000;
+}
+
+.phone {
+	text-align: right;
+	margin-left: 600px;
+	margin-top: -7%;  
+}
+
+.jumbotron {
+	max-width: 100%;
+}
+
+.jumbotron img {
+	height: 600px;
+	width: 1400px;
+	float: none;
+    display: block;
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+.blog {
+    padding-top: 60px;
+}
+
+.blog img {
+	float: right;
+	height: 500px;
+	width: 500px;
+}
+
+.post h6 {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.post h3 {
+    padding-top: 20px;
+}
+
+.brand p {
+	padding-top: 12px;
+	font-size: 20px;
+	color: #fff;
+}
