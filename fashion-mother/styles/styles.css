@@ -1,0 +1,129 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* main-wrap */
+.main-wrap {
+	margin: 0 auto;
+    max-width: 960px;
+}
+
+.main {
+	height: 6px;
+	background-color: #f8e27b;
+}
+
+.main-kub {
+	margin: 0 auto;
+	height: 20px;
+	width: 20px;
+	background-color: #f8e27b;
+    -moz-transform: rotate(45deg) translateX(-3px) translateY(-3px);
+    -webkit-transform: rotate(45deg) translateX(-3px) translateY(-3px);
+    -o-transform: rotate(45deg) translateX(-3px) translateY(-3px);
+    -ms-transform: rotate(45deg) translateX(-3px) translateY(-3px);
+    transform: rotate(45deg) translateX(-3px) translateY(-3px);
+}
+
+
+/* power */
+.power {
+	padding: 0 10px 0 10px;
+    display: flex;
+    border-bottom: 1px solid #b2def8;
+}
+
+/* button */
+.button {
+	margin-top: 16px;
+	height: 27px;
+    width: 116px;
+    border-radius: 5em;
+    background-color: #fae851;
+}
+
+.button img {
+	display: flex;
+	margin-top: 3px;
+    margin-left: 10px;
+	height: 20px;
+	width: 20px;
+}
+
+.button p {
+	margin-top: -17px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+/* button-2 */
+.button-2 {
+	margin-top: 16px;
+	margin-left: 10px;
+	height: 27px;
+    width: 116px;
+    border-radius: 5em;
+    background-color: #fae851;
+}
+
+.button-2 img {
+	display: flex;
+	margin-top: 6px;
+    margin-left: 10px;
+}
+
+.button-2 p {
+	margin-top: -17px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-align: center;	
+}
+
+/* social-measure */
+.social-measure {
+    display: flex;
+    margin-left: 168px;
+    margin-top: 16px;
+    padding-bottom: 10px;
+}
+
+.social-measure img {
+    height: 27px;
+    margin-left: 10px;
+}
+
+/* contact */
+.contact {
+	display: flex;
+
+}
+
+/* logo */
+.logo {
+	display: flex;
+	margin-top: 16px;
+	line-height: 40px;
+}
+
+.info a {
+    color: #0087e4;
+
+}
+
+.logo-type {
+	display: flex;
+	margin-left: 165px;
+	/*border-bottom: 1px solid #b2def8;*/
+}
+
+.tupe {
+	
+}
